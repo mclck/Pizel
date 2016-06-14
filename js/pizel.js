@@ -45,7 +45,7 @@ function draw(img) {
   $("#result").append(convertCanvasToImage($("canvas").get(0)));
   $(".result").append("<a href=" + $("img").attr("src") + " download='pizel.png' >download</a>");
 }
-//
+
 function convertCanvasToImage(canvas) {
   var image = new Image();
   image.src = canvas.toDataURL("image/png");
