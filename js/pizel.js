@@ -60,4 +60,3 @@ function convertImageToCanvas(image) {
   canvas.getContext("2d").drawImage(image, 0, 0);
   return canvas;
 }
-function proto {}
