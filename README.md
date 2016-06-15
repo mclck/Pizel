@@ -1,2 +1,2 @@
 # Pizel
-Pic to Pix
+Pics to Pix
