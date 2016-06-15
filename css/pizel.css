@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  background-color: #E7E7E7;
+}
+input {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+.area {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.controls {
+  width: 100%;
+  height: 10%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.range {
+  position: relative;
+}
+.upload {
+  position: relative;
+}
+.result {
+  position: relative;
+  width: 100%;
+  height: 80%;
+}
+.download {
+  position: relative;
+  width: 100%;
+  height: 10%;
+}
+#result {
+  position: relative;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
